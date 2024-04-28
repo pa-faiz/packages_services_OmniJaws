@@ -54,8 +54,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity;
-
-import org.omnirom.omnijaws.R;
+import com.android.settingslib.widget.R;
 
 public class LocationBrowseActivity extends CollapsingToolbarBaseActivity {
     private static final String TAG = "LocationBrowseActivity";

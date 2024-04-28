@@ -20,6 +20,7 @@ package org.omnirom.omnijaws;
 import android.os.Bundle;
 
 import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity;
+import com.android.settingslib.widget.R;
 
 public class SettingsActivity extends CollapsingToolbarBaseActivity {
 
@@ -31,8 +32,6 @@ public class SettingsActivity extends CollapsingToolbarBaseActivity {
     @Override
     protected void onPostCreate(Bundle savedInstanceState) {
         super.onPostCreate(savedInstanceState);
-        getSupportFragmentManager().beginTransaction().replace(
-                com.android.settingslib.collapsingtoolbar.R.id.content_frame,
-                new SettingsFragment()).commit();
+        getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, new SettingsFragment()).commit();
     }
 }
